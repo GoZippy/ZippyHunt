@@ -36,3 +36,23 @@ This file defines the data structure used to generate, validate, and deploy ques
   },
   "storyline": "string (optional)"
 }
+
+```
+
+🎯 Notes
+"difficulty" ranges from 1 (easy) to 5 (epic)
+
+"required_class" allows multi-class targeting or open access
+
+"faction_alignment" helps unlock global storyline quests
+
+"storyline" is optional unless part of a quest arc
+
+🔧 Usage
+This schema is used by:
+
+AI-powered quest generators (ZQ Codex)
+
+Moderators reviewing user submissions
+
+Developers staging events and portals
